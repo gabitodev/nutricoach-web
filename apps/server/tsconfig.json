@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "lib": ["ES2023"],
+    "target": "ES2023",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Compilation */
+    "outDir": "./build",
+    "module": "NodeNext",
+    "sourceMap": true,
+
+    /* Aliases */
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  }
+}
